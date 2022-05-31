@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto:ital,wght@0,100;0,400;1,100&family=Ubuntu+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color:#989AA0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+.container{
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0, 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    margin-left: 100px;
+    
+}
+header{
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+}
+header h2{
+    font-size: 25px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form{
+    padding: 30px 40px;
+}
+.form-container{
+    margin-bottom:10px ;
+    padding-bottom:20px;
+}
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+input{
+    display: block;
+    border: 2px solid #f0f0f0;
+    outline: #f0f0f0;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+    font-family: inherit;
+}
+select{
+    display: block;
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+    font-family: inherit;
+}
+#btn{
+    background-color: #989AA0;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    border: 1px solid #989AA0;
+    padding: 5px;
+    width: 80%;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: #fff;
+    width: 40%;
+    margin: 50px;
+    margin-left: 60px;
+    margin-bottom: 100px;
+}
+table, th, td{
+   border: 2px solid #989AA0;
+   padding: 5px;
+}
+th{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: inherit;
+}
+td{
+    font-size: 11px;
+    font-weight: 600;
+}
+
+#wel{
+    margin-bottom: 520px;
+    position: relative;
+    left: 350px;
+    font-size: 30px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: wel;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes wel {
+    0%{ top: -50px;}
+    100%{top: 150px;}
+}

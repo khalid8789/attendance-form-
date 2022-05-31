@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Attendance Sheet</h2>
+        </header>
+        <form onsubmit="event.preventDefault(); onFormSubmit();" action="">
+            <div class="form-container">
+            <label for="first">First name:</label>
+            <input id="firstname" type="text" placeholder="Enter your first name" >
+         </div>
+         <div class="form-container">
+            <label for="last">Last name:</label>
+            <input id="lastname" type="text" placeholder="Enter your last name" >
+         </div>
+         <div class="form-container">
+            <label for="email">Email:</label>
+            <input id="Email" type="text" placeholder="Enter your email@gmail.com" >
+         </div>
+         <div class="form-container">
+            <label for="time">Time:</label>
+            <input id="Time" type="text" placeholder="Enter current time" >
+         </div>
+
+         <div class="form-container">
+         <label>Occupation:</label>
+         <select  id="occupation">
+            <option>Datascience</option>
+            <option>Frontend</option>
+            <option>Backend</option>
+            <option>Product Design(UI/UX)</option>
+            <option>Python</option>
+            <option>Mobile App</option>
+         </select>
+        </div>
+        
+        <div>
+          <button id="btn">Submit</button>
+        </div>
+        </form>
+    
+    </div>
+
+    <h2 id="wel">WELCOME</h2>
+    
+    <table id="attendance">
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Email</th>
+            <th>Time</th>
+            <th>Occupation</th>
+            
+
+
+
+
+        </tr>
+        <tbody>
+
+        </tbody>
+    </table>
+    
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
